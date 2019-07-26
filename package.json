@@ -14,7 +14,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "serve": "./node_modules/.bin/serve -s",
+    "live-server": "./node_modules/.bin/forever start --minUptime 1000 --spinSleepTime 1000 -c \"yarn serve\" build/"
   },
   "eslintConfig": {
     "extends": "react-app"
