@@ -13,8 +13,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "serve": "serve -s",
-    "live-server": "forever start --minUptime 1000 --spinSleepTime 1000 -c \"yarn serve\" build/"
+    "serve": "npx serve -s",
+    "live-server": "npx forever start --minUptime 1000 --spinSleepTime 1000 -c \"npm run serve\" build/"
   },
   "eslintConfig": {
     "extends": "react-app"
