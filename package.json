@@ -16,8 +16,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "serve": "serve -s",
-    "live-server": "forever start --minUptime 1000 --spinSleepTime 1000 -c \"yarn serve\" build/",
-    "start-server": "npm install -g yarn serve forever && yarn live-server"
+    "live-server": "forever start --minUptime 1000 --spinSleepTime 1000 -c \"yarn serve\" build/"
   },
   "eslintConfig": {
     "extends": "react-app"
